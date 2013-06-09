@@ -81,7 +81,7 @@ namespace CodeInLiveWriter
         {
             m_HtmlCode = getHtmlStyleCode(
                 comboBox_Language.SelectedItem.ToString(),
-                textBox_Code.Text.Trim(),
+                textBox_Code.Text.TrimEnd(),
                 checkBox_ShowLine.Checked,
                 comboBox_Style.SelectedItem.ToString());
             DialogResult = DialogResult.OK;
