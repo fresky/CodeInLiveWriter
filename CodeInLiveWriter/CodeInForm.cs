@@ -43,7 +43,7 @@ namespace CodeInLiveWriter
             comboBox_Language.Items.Add("sql");
             comboBox_Language.Items.Add("html");
             comboBox_Language.Items.Add("xml");
-            comboBox_Language.Items.Add("batch");
+            comboBox_Language.Items.Add("bat");
             comboBox_Language.Items.Add("bash");
 
             loadFromConfig(comboBox_Language, @"Plugins\CodeInLiveWriterLanguage.txt");
